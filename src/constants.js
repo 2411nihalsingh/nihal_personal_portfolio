@@ -12,7 +12,7 @@ import NumpyLogo from "./assets/tech_logo/Numpy.png";
 import seabornLogo from "./assets/tech_logo/seaborn.svg";
 import powerbiLogo from "./assets/tech_logo/powerbi.png";
 import geminiLogo from "./assets/tech_logo/gemini.png";
-import flasklogo from "./assets/tech_logo/flasklogo.png";
+import flaskLogo from "./assets/tech_logo/flasklogo.png";
 import googlecolablogo from "./assets/tech_logo/googlecolab.png";
 import fastapilogo from "./assets/tech_logo/fastapi.png";
 import streamlitlogo from "./assets/tech_logo/streamlitlogo.png";
@@ -32,10 +32,20 @@ import postmanLogo from './assets/tech_logo/postman.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import langchainLogo from './assets/tech_logo/langchain.svg'; 
 import openCVLogo from './assets/tech_logo/opencv.png'; 
+import automlLogo from './assets/tech_logo/automl.png'; 
+import langgraphLogo from './assets/tech_logo/langgraph.png'; 
+import n8nLogo from './assets/tech_logo/n8n.png'; 
+import groqLogo from './assets/tech_logo/groq.png'; 
+import mcpLogo from './assets/tech_logo/mcp.png'; 
+import kaggleLogo from './assets/tech_logo/kaggle.png'; 
+import pycharmLogo from './assets/tech_logo/pycharm.png'; 
+import prometheusLogo from './assets/tech_logo/prometheus.png'; 
+import grafanaLogo from './assets/tech_logo/grafana.png'; 
 
 // Experience Section Logo's
 import corecardLogo from './assets/company_logo/corecard.png';
 import mitsLogo from './assets/company_logo/mits.jpg';
+import netlinkLogo from './assets/company_logo/netlink.png';
 
 // Education Section Logo's
 
@@ -61,35 +71,40 @@ export const SkillsInfo = [
       { name: 'Numpy', logo: NumpyLogo },
       { name: 'Matplotlib', logo: matplotlibLogo },
       { name: 'Seaborn', logo: seabornLogo },
+      { name: 'Kaggle', logo: kaggleLogo },
+      { name: 'AutoML', logo: automlLogo },
       { name: 'Jupyter Notebook', logo: jupyterLogo },
       { name: 'Excel', logo:excelLogo},
       { name: 'PowerBI', logo: powerbiLogo },
-      
     ],
   },
   {
     title: 'AI & Machine Learning',
     skills: [
       { name: 'Tensorflow', logo: tensorflowLogo },
-      { name: 'Keras', logo: kerasLogo },
       { name: 'Pytorch', logo: pytorchLogo },
       { name: 'Scikit-learn', logo: sklearnLogo },
+      // { name: 'Keras', logo: kerasLogo },
       { name: 'OpenCV', logo: openCVLogo},
       { name: 'Hugging Face', logo: huggingfaceLogo },
       { name: 'LangChain', logo: langchainLogo },
+      { name: 'LangGraph', logo: langgraphLogo },
       { name: 'GeminiAPI', logo: geminiLogo },
-      { name: 'Flask', logo: flasklogo },
+      { name: 'Groq', logo: groqLogo },
+      { name: 'MCP', logo: mcpLogo },
+      { name: 'n8n', logo: n8nLogo },
+      { name: 'Flask', logo: flaskLogo },
     ],
   },
   {
     title: 'Languages',
     skills: [
+      { name: 'Python', logo: pythonLogo },
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
-      { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'R', logo: rlogo },
-      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'SQL', logo: mysqlLogo },
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
       
@@ -101,12 +116,15 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
+      { name: 'PyCharm', logo: pycharmLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Google colab', logo: googlecolablogo},
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Streamlit', logo: streamlitlogo },
       { name: 'FastAPI', logo: fastapilogo },
       { name: 'MongoDB', logo: mongodbLogo },
+      // { name: 'Prometheus', logo: prometheusLogo },
+      { name: 'Grafana', logo: grafanaLogo },
     ],
   },
 ];
@@ -114,6 +132,32 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
+      img: netlinkLogo,
+      role: "Python AIML Intern",
+      company: "Netlink Software Group America Inc.",
+      date: " Jun 2025 - Present",
+      desc: "Contributed to AI/ML solutions by applying AutoML to cut model selection time by 80% while achieving 90%+ accuracy. Built intelligent RAG + SQL retrieval systems and developed modular AI agents using LangGraph and n8n. Worked with Python, Selenium, and MCP servers to drive automation, model optimization, and scalable data workflows for improved efficiency and accuracy.",
+      skills: [
+        "Python",
+        "SQL",
+        "AutoML",
+        "RAG",
+        "LangGraph",
+        "LangChain",
+        "ChromaDB",
+        "n8n",
+        "FastAPI",
+        "Prometheus",
+        "MCP",
+        "Gen AI",
+        "Web Scrapping",
+        "AI Agents",
+        
+
+      ],
+    },
+    {
+      id: 1,
       img: corecardLogo,
       role: "Software Engineer Intern",
       company: "Corecard Software India Pvt. Ltd. Bhopal",
@@ -133,7 +177,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: mitsLogo,
       role: "Undergraduate Summer Intern",
       company: "MITS Gwalior",
