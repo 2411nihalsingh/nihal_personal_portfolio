@@ -46,7 +46,7 @@ import grafanaLogo from './assets/tech_logo/grafana.png';
 import corecardLogo from './assets/company_logo/corecard.png';
 import mitsLogo from './assets/company_logo/mits.jpg';
 import netlinkLogo from './assets/company_logo/netlink.png';
-
+import algo8Logo from './assets/company_logo/algo8_logo.jpg';
 // Education Section Logo's
 
 import rishigalavLogo from './assets/education_logo/rishiglv.jpg';
@@ -130,12 +130,35 @@ export const SkillsInfo = [
 ];
 
   export const experiences = [
-    {
+        {
       id: 0,
+      img: algo8Logo,
+      role: "Data Science Intern",
+      company: "Algo8.AI",
+      date: " Oct 2025 - Present",
+      desc: "Worked on intelligent automation and NLP-driven systems, including an Invoice Reconciliation Agent using CrewAI and DocTr OCR (70% faster processing), a RAG pipeline for industrial manuals (60% faster lookup), and an MCP server for natural-language database analytics. I also developed anomaly detection with feature attribution using SHAP.",
+      skills: [
+        "Python",
+        "SQL",
+        "RAG",
+        "LangGraph",
+        "LangChain",
+        "Crew-AI",
+        "Faiss",
+        "MCP",
+        "Gen AI",
+        "AI Agents",
+        "ML",
+        "Anomaly Detection"
+
+      ],
+    },
+    {
+      id: 1,
       img: netlinkLogo,
       role: "Python AIML Intern",
       company: "Netlink Software Group America Inc.",
-      date: " Jun 2025 - Present",
+      date: " Jun 2025 - Sep 2025",
       desc: "Contributed to AI/ML solutions by applying AutoML to cut model selection time by 80% while achieving 90%+ accuracy. Built intelligent RAG + SQL retrieval systems and developed modular AI agents using LangGraph and n8n. Worked with Python, Selenium, and MCP servers to drive automation, model optimization, and scalable data workflows for improved efficiency and accuracy.",
       skills: [
         "Python",
@@ -157,7 +180,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: corecardLogo,
       role: "Software Engineer Intern",
       company: "Corecard Software India Pvt. Ltd. Bhopal",
@@ -177,7 +200,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: mitsLogo,
       role: "Undergraduate Summer Intern",
       company: "MITS Gwalior",

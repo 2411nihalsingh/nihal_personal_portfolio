@@ -28,7 +28,6 @@ const About = () => {
                 'Data Scientist',
                 'AI/ML Engineer',
                 'DSA Expert',
-                'Frontend Developer',
                 'Tech Explorer'
               ]}
               speed={100}
